@@ -9,7 +9,7 @@ public class Result {
 	}
 	
 	public Result(boolean success, String message) {
-		this(success);//this.success = success; Result(success) i cagirdi yani
+		this(success);
 		this.message = message;
 	}
 	
