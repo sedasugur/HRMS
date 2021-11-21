@@ -47,6 +47,9 @@ public class JobAdvertisement {
 	@Column(name="release_date")
 	private Date releaseDate;
 	
+	@Column(name="status")
+	private boolean status;
+	
 	@ManyToOne()
 	@JoinColumn(name="job_position_id")
 	private JobPosition jobPosition;
